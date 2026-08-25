@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# java-estudos-nelio-alves
-=======
 Markdown
 # ☕ Java Completo - Exercícios de Estudos
 
