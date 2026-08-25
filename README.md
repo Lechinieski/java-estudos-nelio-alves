@@ -21,7 +21,7 @@ Este repositório contém a resolução dos exercícios práticos e projetos des
 
 ### 🔲 Exercício de Fixação - Matrizes (Busca e Vizinhos)
 
-* **Pasta:** `Exercicio Matrizes`
+* **Pasta:** `ExercicioMatriz`
 * **Descrição:** Aplicação Java que lê as dimensões $M \times N$ de uma matriz, preenche seus valores e busca por um número $X$. Para cada ocorrência de $X$, o programa exibe suas coordenadas e os valores vizinhos (esquerda, acima, direita e abaixo), tratando os limites das bordas.
 
 ## 🛠️ Tecnologias e Ferramentas
