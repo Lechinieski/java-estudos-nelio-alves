@@ -10,7 +10,7 @@ Este repositório contém a resolução dos exercícios práticos e projetos des
 ### 📋 Exercício de Fixação - Lista de Funcionários
 * **Pasta:** `Exercicio de fixação Lista`
 * **Descrição:** Aplicação Java para gerenciamento de funcionários usando `List` (`ArrayList`). Permite cadastrar múltiplos funcionários, buscar um funcionário por ID e aplicar um aumento percentual ao seu salário (com verificação de existência do ID).
-
+* ---
 #### 🛠️ Conceitos aplicados neste exercício:
 * Encapsulamento (Getters/Setters, Construtores)
 * Estrutura de dados com `List<T>` / `ArrayList`
@@ -18,6 +18,11 @@ Este repositório contém a resolução dos exercícios práticos e projetos des
 * Formatação de saída com `Locale.US`
 
 ---
+
+### 🔲 Exercício de Fixação - Matrizes (Busca e Vizinhos)
+
+* **Pasta:** `Exercicio Matrizes`
+* **Descrição:** Aplicação Java que lê as dimensões $M \times N$ de uma matriz, preenche seus valores e busca por um número $X$. Para cada ocorrência de $X$, o programa exibe suas coordenadas e os valores vizinhos (esquerda, acima, direita e abaixo), tratando os limites das bordas.
 
 ## 🛠️ Tecnologias e Ferramentas
 
