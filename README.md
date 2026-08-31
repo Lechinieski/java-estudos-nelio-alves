@@ -34,6 +34,17 @@ Este repositório contém a resolução dos exercícios práticos e projetos des
 
 ---
 
+### 📅 Manipulação de Datas com Calendar e Date
+* **Pasta:** `Calendar`
+* **Descrição:** Exercícios focados no tratamento legado de datas e horários em Java utilizando a classe `Calendar` e `Date`. Explora operações como adição/subtração de unidades de tempo e extração de componentes específicos de uma data (minutos, mês, etc.).
+* **🛠️ Conceitos aplicados:**
+  * Manipulação de datas com `java.util.Calendar` e `java.util.Date`
+  * Adição de tempo a uma data com `calendar.add(Calendar.HOUR_OF_DAY, n)`
+  * Extração de partes da data com `calendar.get(Calendar.MINUTE)` e `calendar.get(Calendar.MONTH)`
+  * Formatação e exibição com `SimpleDateFormat`
+
+---
+
 ## 🛠️ Tecnologias e Ferramentas
 
 * **Linguagem:** Java
