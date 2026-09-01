@@ -45,6 +45,17 @@ Este repositório contém a resolução dos exercícios práticos e projetos des
 
 ---
 
+### 💼 Composição de Objetos e Enum (Worker & Contracts)
+* **Pasta:** `Enum`
+* **Descrição:** Aplicação Java para gerenciamento de contratos de trabalhadores e cálculo de renda baseada em mês e ano informados. Utiliza enumerações para representar o nível do trabalhador e composição de objetos para relacionar trabalhador, departamento e seus respectivos contratos de horas.
+* **🛠️ Conceitos aplicados:**
+  * Enumerações (`WorkerLevel`)
+  * Composição de objetos (`Worker` possui `Department` e uma lista `List<HourContract>`)
+  * Manipulação e extração de componentes de datas com `Calendar` para filtragem por mês e ano
+  * Tratativa de entrada de dados no console (`Scanner`, `.trim()`, formatação)
+
+---
+
 ## 🛠️ Tecnologias e Ferramentas
 
 * **Linguagem:** Java
