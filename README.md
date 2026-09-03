@@ -56,6 +56,17 @@ Este repositório contém a resolução dos exercícios práticos e projetos des
 
 ---
 
+### 📝 Composição de Objetos e StringBuilder (Post & Comment)
+* **Pasta:** `CompositionStringBuilder`
+* **Descrição:** Aplicação Java que simula um sistema de postagens e comentários (estilo rede social). Demonstra a aplicação de composição do tipo "um para muitos" (um `Post` possui vários `Comment`) e a otimização de concatenação de textos.
+* **🛠️ Conceitos aplicados:**
+  * Composição de objetos (`Post` com lista `List<Comment>`)
+  * Manipulação eficiente de Strings com `StringBuilder` no método `toString()`
+  * Formatação de datas completas (`dd/MM/yyyy HH:mm:ss`) usando `SimpleDateFormat`
+  * Métodos de delegação para adição (`addComment`) e remoção (`removeComment`) de itens na coleção
+
+---
+
 ## 🛠️ Tecnologias e Ferramentas
 
 * **Linguagem:** Java
