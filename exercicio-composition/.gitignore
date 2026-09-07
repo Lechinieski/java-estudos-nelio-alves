@@ -1,0 +1,7 @@
+# Pastas compiladas e binárias
+bin/
+
+# Arquivos e configurações da IDE (Eclipse / STS)
+.settings/
+.classpath
+.project
