@@ -33,22 +33,21 @@ public class Program {
 		System.out.println("Enter order data:");
 		System.out.print("Status :");
 		OrderStatus status = OrderStatus.valueOf(sc.next());	
-		sc.next();
+		
 		Order order = new Order(new Date(), status, client);
 		
 		System.out.print("How many items to this order? ");
 		int n = sc.nextInt();
 		
-		
-		
-		
-		
 		for(int i=1;i<=n;i++) {
+			sc.nextLine();
 			System.out.println("Enter #"+ i +" item data:");
 			System.out.print("Product name: ");
 			String productName = sc.nextLine();
+			
 			System.out.print("Product price: ");
 			double productPrice = sc.nextDouble();
+			
 			System.out.print("Quantity: ");
 			int quantity = sc.nextInt();
 			
@@ -58,7 +57,6 @@ public class Program {
 		}
 		System.out.println();
 		System.out.println(order);
-		
 		
 		
 		
