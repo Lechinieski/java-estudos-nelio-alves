@@ -33,5 +33,18 @@ public class Program {
 			acc5.updateBalance();
 			System.out.println("Update!");
 		}
+		
+		//SOBREPOSIÇÃO e uso do @Override
+		Account abb1 = new Account(101,"joao", 1000.0);
+		abb1.withdraw(200.0);
+		System.out.println(abb1.getBalance());
+		
+		Account abb2 = new BusinessAccount(102, "pedro", 1000.0, 0.01);
+		abb2.withdraw(200.0);
+		System.out.println(abb2.getBalance());
+		
+		Account abb3 = new SavingsAccount(103, "nas", 1000.0, 500.0);
+		abb3.withdraw(200.0);
+		System.out.println(abb3.getBalance());
 	}
 }
