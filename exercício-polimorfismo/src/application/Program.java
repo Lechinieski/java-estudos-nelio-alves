@@ -1,5 +1,6 @@
 package application;
 
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -29,7 +30,7 @@ public class Program {
 			char ch= sc.next().charAt(0);
 			System.out.print("Name: ");
 			sc.nextLine();
-			String name =sc.nextLine();
+			String name =sc.nextLine().trim();
 			
 			System.out.print("Price: ");
 			double price=sc.nextDouble();
@@ -40,14 +41,19 @@ public class Program {
 			}
 			if(ch == 'u') {
 				System.out.print("Manufacture date (DD/MM/YYYY): ");
-				String dateManufacture=sc.nextLine();
+				String dateManufacture=sc.next();
 				Date manuFactureDate=sdf.parse(dateManufacture);
 				list.add(new UsedProduct(name, price, dateManufacture, manuFactureDate));
+			}
+			if(ch == 'c') {
+				list.add(new Product(name, price, name));
 			}
 		}
 		System.out.println();
 		System.out.println("PRICE TAGS:");
-		
+		for(Product prod : list) {
+			System.out.println(prod.priceTag());
+		}
 		
 		
 
